@@ -1,0 +1,20 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: backend.dockerfile
+    container_name: laravel_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/var/www/html
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: frontend.dockerfile
+    container_name: react_client
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
