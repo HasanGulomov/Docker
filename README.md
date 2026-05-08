@@ -14,14 +14,17 @@
 ├── backend/            # Laravel API
 ├── frontend/           # React + Ant Design
 └── docker-compose.yml  # Docker Orchestration
-⚡️ Run Project (with Docker)
-From the project root directory, run:
 
-Bash
+
+⚡️ Run Project (with Docker)
+From the project root directory, run the following command:
+
+
 
 docker compose up --build
-🔌 Ports
+```
+
+Ports
 Frontend: http://localhost:5173
 
 Backend: http://localhost:8000
-```
