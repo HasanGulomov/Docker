@@ -19,7 +19,7 @@
 ⚡️ Run Project (with Docker)
 From the project root directory, run the following command:
 
-docker compose up --build
+``` docker compose up --build```
 
 Ports
 Frontend: http://localhost:5173
