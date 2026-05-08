@@ -2,7 +2,7 @@
 
 ### 🛠 Technologies
 
-- **Backend:** Laravel 11 (PHP 8.3)
+- **Backend:** Laravel 13 (PHP 8.3.6)
 - **Frontend:** React + TypeScript (TSX) + Ant Design
 
 ---
@@ -24,6 +24,7 @@ docker compose up --build
 ```
 
 Ports
+
 Frontend: http://localhost:5173
 
 Backend: http://localhost:8000
