@@ -19,10 +19,8 @@
 ⚡️ Run Project (with Docker)
 From the project root directory, run the following command:
 
-```text 
-
+```text
 docker compose up --build
-
 ```
 
 Ports
