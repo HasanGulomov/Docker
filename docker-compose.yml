@@ -2,19 +2,21 @@ services:
   backend:
     build:
       context: ./backend
-      dockerfile: backend.dockerfile
+      dockerfile: Dockerfile.dev
     container_name: laravel_api
     ports:
       - "8000:8000"
     volumes:
       - ./backend:/var/www/html
+      - /var/www/html/vendor
 
   frontend:
     build:
       context: ./frontend
-      dockerfile: frontend.dockerfile
+      dockerfile: Dockerfile.dev
     container_name: react_client
     ports:
       - "5173:5173"
     volumes:
       - ./frontend:/app
+      - /app/node_modules 
