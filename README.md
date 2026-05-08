@@ -1,17 +1,22 @@
-🚀 Full-Stack Docker Project
-🛠 Technologies
-Backend: Laravel 11 (PHP 8.3)
+# 🚀 Full-Stack Docker Project
 
-Frontend: React + TypeScript + Ant Design
+### 🛠 Technologies
 
-📂 Project Structure
-Plaintext
+- **Backend:** Laravel 11 (PHP 8.3)
+- **Frontend:** React + TypeScript (TSX) + Ant Design
 
+---
+
+### 📂 Project Structure
+
+```text
 .
-├── backend/ # Laravel API
-├── frontend/ # React + Ant Design
-└── docker-compose.yml # Docker orchestration
-⚡️ Run Project
+├── backend/            # Laravel API
+├── frontend/           # React + Ant Design
+└── docker-compose.yml  # Docker Orchestration
+⚡️ Run Project (with Docker)
+From the project root directory, run:
+
 Bash
 
 docker compose up --build
@@ -19,3 +24,4 @@ docker compose up --build
 Frontend: http://localhost:5173
 
 Backend: http://localhost:8000
+```
